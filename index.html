@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Leader Board</title>
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/d6887e85de.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,8 +25,9 @@
     header section starts -->
     <!-- Main section starts -->
     <main>
-        <section>
+        <section class=" container">
             <div class="top-players">
+                <h2 class="main-title">Top Players</h2>
                 <div class="players">
                     <div class="player">
                         <div class="player-img">
@@ -64,7 +67,136 @@
                     </div>
                 </div>
             </div>
+            <hr>
+            <div class="top-blog">
+                <h2 class="main-title">Top Blog</h2>
+                <div class="blogs">
+                    <article class="blog">
+                        <div class="blog-thumbnail">
+                            <img src="images/blogs/blog-1.png">
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">
+                                13 of My Favorite
+                                UI/UX Goodies
+                            </h3>
+                            <p class="blog-author">By <a href="#">Danny Sapio</a></p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="blog-thumbnail">
+                            <img src="images/blogs/blog-2.png">
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">
+                                UI cheat sheet: 
+                                list vs grids
+                            </h3>
+                            <p class="blog-author">By <a href="#">Tess Gadd</a></p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="blog-thumbnail">
+                            <img src="images/blogs/blog-3.png">
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">
+                                7 typography tips 
+                                for interface design
+                            </h3>
+                            <p class="blog-author">By <a href="#">Jeremiah Lam</a></p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="blog-thumbnail">
+                            <img src="images/blogs/blog-4.png">
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">
+                                Your logo is copied
+                            </h3>
+                            <p class="blog-author">By <a href="#">Ferdinand Vogler</a></p>
+                        </div>
+                    </article>
+                </div>
+            </div>
         </section>
+        <!-- latest courses section starts -->
+        <section class="container">
+            <h2 class="main-title">Latest Course</h2>
+            <div class="courses">
+                <div class="course">
+                    <div class="course-banner">
+                        <img src="images/courses/course-1.png">
+                    </div>
+                    <div class="course-info">
+                        <h3 class="course-title">React - The Complete </h3>
+                        <h3 class="course-title">Guide 2020</h3>
+                        <p class="course-author">Reed Krakoff.</p>
+                        <div class="course-rating">
+                            <div>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star empty"></i>
+                                <span>4.5</span>
+                            </div>
+                            <div class="course-duration">
+                                <i class="fas fa-clock"></i>01:30 hr
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-banner">
+                        <img src="images/courses/course-2.png">
+                    </div>
+                    <div class="course-info">
+                        <h3 class="course-title">Powerpoint 2020</h3>
+                        <h3 class="course-title">Master Powerpoint Cour</h3>
+                        <p class="course-author">Walter Scott</p>
+                        <div class="course-rating">
+                            <div>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star empty"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="course-duration">
+                                <i class="fas fa-clock"></i>01:20 hr
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-banner">
+                        <img src="images/courses/course-3.png">
+                    </div>
+                    <div class="course-info">
+                        <h3 class="course-title">The Complete JavaScript</h3>
+                        <h3 class="course-title">Guide 2020</h3>
+                        <p class="course-author">Reed Krakoff.</p>
+                        <div class="course-rating">
+                            <div>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star empty"></i>
+                                <span>4.5</span>
+                            </div>
+                            <div class="course-duration">
+                                <i class="fas fa-clock"></i>01:30 hr
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- latest courses section ends -->
     </main>
     <!-- Main section ends -->
 </body>
